@@ -1,4 +1,4 @@
-import React from 'react';
+iimport React from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 import { faker } from '@faker-js/faker';
@@ -33,8 +33,8 @@ const Projects: React.FC = () => {
       impact: "15% improvement in risk-adjusted returns",
       chartData: generateLineData(),
       chartType: 'line' as const,
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/Ravianshu07/Quant/blob/main/CAPM%20%26%20Multi-Factor%20Regression%20Analysis.ipynb",
+      demoUrl: "https://github.com/Ravianshu07/Quant/blob/main/CAPM%20%26%20Multi-Factor%20Regression%20Analysis.ipynb"
     },
     {
       title: "Value-at-Risk Engine",
@@ -42,8 +42,8 @@ const Projects: React.FC = () => {
       impact: "99.5% accuracy in tail risk prediction",
       chartData: generateAreaData(),
       chartType: 'area' as const,
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/Ravianshu07/Quant/blob/main/Value%20at%20Risk%20Calculator.ipynb",
+      demoUrl: "https://github.com/Ravianshu07/Quant/blob/main/Value%20at%20Risk%20Calculator.ipynb"
     },
     {
       title: "LSTM Stock Predictions",
@@ -60,8 +60,8 @@ const Projects: React.FC = () => {
       impact: "22% reduction in portfolio volatility",
       chartData: generateLineData(),
       chartType: 'area' as const,
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/Ravianshu07/Quant/blob/main/Stock%20Market%20Portfolio%20Optimization.ipynb",
+      demoUrl: "https://github.com/Ravianshu07/Quant/blob/main/Stock%20Market%20Portfolio%20Optimization.ipynb"
     }
   ];
 
